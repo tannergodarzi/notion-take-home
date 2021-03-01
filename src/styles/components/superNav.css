@@ -1,0 +1,14 @@
+.superNav {
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto;
+    box-sizing: border-box;
+    width: 100%;
+    align-content: flex-end;
+    justify-content: space-between;
+}
+
+.superNav__links > .link {
+    color: var(--title-color);
+    margin-left: 24px;
+}

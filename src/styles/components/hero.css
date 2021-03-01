@@ -1,0 +1,35 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 996px;
+    position: relative;
+    margin: 100px auto;
+}
+
+.hero__header {
+    flex: 1 4 auto;
+    margin-right: 24px;
+}
+
+.hero__aside {
+    flex: 1 1 auto;
+}
+
+@media(max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero__header {
+        order: 2;
+        margin-right: 0;
+    }
+    
+    .hero__aside {
+        order: 1;
+        margin-bottom: 24px;
+    }
+    
+}

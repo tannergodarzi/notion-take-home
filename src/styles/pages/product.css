@@ -1,0 +1,23 @@
+.product-page {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media(max-width: 1200px) {
+    .product-page {
+        padding: 0 40px;
+    }
+}
+
+@media(max-width: 768px) {
+    .product-page {
+        padding: 0 20px;
+    }
+}
+
+
+.product-page__navigation {
+    margin: 0 0 50px 0;
+}
